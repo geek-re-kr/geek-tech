@@ -1,0 +1,16 @@
+---
+layout: archive
+title: "Page Archive"
+permalink: /page-archive/
+author_profile: false
+visible: true
+---
+<!-- FIXME BUG: 뻘글이 없으면 왜 오류가 나는걸까 -->
+뻘글똥글아무거나있어야에러가안남
+
+<h2>Pages</h2>
+{% for post in site.pages %}
+  {% if post.visible %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

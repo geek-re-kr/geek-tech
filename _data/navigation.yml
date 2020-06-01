@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "[Geek Lab]"
+    url: https://geek.re.kr
+  - title: "About"
+    url: /about/
+  - title: "Yealy Posts"
+    url: /year-archive/
+  - title: "Pages"
+    url: /page-archive/
+  - title: "Sitemap"
+    url: /sitemap/
