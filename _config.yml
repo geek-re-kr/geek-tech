@@ -1,24 +1,40 @@
-# theme: "minimal-mistakes-jekyll"
+theme: "minimal-mistakes-jekyll"
 remote_theme: "geek-re-kr/minimal-mistakes"
 minimal_mistakes_skin: "geek"
+
+# languages
+## polyglot
+# lang: ko
+# languages: ["ko", "en", "jp"]
+# default_lang: "ko"
+# exclude_from_localization: ["javascript", "images", "css", "README.md"]
+# parallel_localization: true
+## mulgilang
+languages: ["ko", "en", "jp"]
+exclude_from_localizations: ["js", "javascript", "images", "css", "assets", "CNAME", "README.md"]
+defaultLang: ko
+languageNames:
+  ko: Korean
+  en: English
+  jp: Japanese
 
 # Site Settings
 date_format: "%Y-%m-%d"
 datetime_format: "%Y-%m-%d %H:%M:%S"
-locale: "en-US"
+locale: "en-US" #en-US, ko-KR
 title: Tech - Geek Lab
 title_separator: "-"
 subtitle: "IT 기술관련"
 name: "Tech - Geek Lab"
 description: >-
-  기술관련 정보 정보
+  데브옵스 정보
 url: "https://geek.re.kr"
-baseurl: "/"
-repository: "geek-re-kr/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: "masthead_title" # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs: true # true, false (default)
+baseurl: ""
+repository: "geek-re-kr/geek-tech"
+# teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title: "Tech - Geek Lab"
+breadcrumbs: true
 words_per_minute: 200
 comments:
   provider: "commento"
@@ -29,9 +45,9 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: true # true, false (default)
-search_full_content: # true, false (default)
-search_provider: # lunr (default), algolia, google
+search: true
+search_full_content: false
+search_provider: lunr # lunr (default), algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -54,6 +70,9 @@ social-share:
     username:
     app_id:
     publisher:
+  kakaotalk:
+    username:
+
 og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -73,29 +92,17 @@ analytics:
 # Site Author
 author:
   name: "CEE"
-  avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "man"
   location: "Asia/Seoul"
   email: "archmagece@gmail.com"
+  gravatar: "7f897f2018b4cda842e1718a111ee397"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    website:
+      url: https://geek.re.kr
+    twitter:
+      username: realDonaldTrump
+    github:
+      username: archmagece
 
 # Reading Files
 include:
@@ -128,6 +135,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /test-geek
 keep_files:
   - .git
   - .svn
@@ -169,12 +177,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
+  # not in ghpages
+  # - jekyll-admin
+  # - jekyll-gravatar
   - jekyll-include-cache
-  - jekyll-gravatar
-  - jekyll-admin
-  - jekyll-asciidoc
-  - jekyll-archives
-  - asciidoctor-diagram
+  # - jekyll-asciidoc
+  # - jekyll-archives
+  # - asciidoctor-diagram
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -182,12 +192,14 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jemoji
+  # not in ghpages
+  # - jekyll-admin
+  # - jekyll-gravatar
   - jekyll-include-cache
-  - jekyll-gravatar
-  - jekyll-admin
-  - jekyll-asciidoc
-  - jekyll-archives
-  - asciidoctor-diagram
+  # - jekyll-asciidoc
+  # - jekyll-archives
+  # - asciidoctor-diagram
 
 # Archives
 #  Type
