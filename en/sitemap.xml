@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://geek.re.kr/en/about</loc>
+</url>
+<url>
+<loc>https://geek.re.kr/en/categories/</loc>
+</url>
+<url>
+<loc>https://geek.re.kr/en/collection-archive/</loc>
+</url>
+<url>
+<loc>https://geek.re.kr/en/</loc>
+</url>
+<url>
+<loc>https://geek.re.kr/en/page-archive/</loc>
+</url>
+<url>
+<loc>https://geek.re.kr/en/search/</loc>
+</url>
+<url>
+<loc>https://geek.re.kr/en/sitemap/</loc>
+</url>
+<url>
+<loc>https://geek.re.kr/en/tags/</loc>
+</url>
+<url>
+<loc>https://geek.re.kr/en/year-archive/</loc>
+</url>
+</urlset>
