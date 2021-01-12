@@ -12,6 +12,7 @@ minimal_mistakes_skin: "geek"
 ## mulgilang
 languages: ["ko", "en", "jp"]
 exclude_from_localizations: ["js", "javascript", "images", "css", "assets", "CNAME", "README.md"]
+default_locale_in_subfolder: true
 defaultLang: ko
 languageNames:
   ko: Korean
@@ -24,10 +25,10 @@ datetime_format: "%Y-%m-%d %H:%M:%S"
 locale: "en-US" #en-US, ko-KR
 title: Tech - Geek Lab
 title_separator: "-"
-subtitle: "IT 기술관련"
+subtitle: "개발 관련 기술정리"
 name: "Tech - Geek Lab"
 description: >-
-  데브옵스 정보
+  dev tech
 url: "https://geek.re.kr"
 baseurl: ""
 repository: "geek-re-kr/geek-tech"
@@ -80,7 +81,7 @@ social:
   type: Organization # Person or Organization (defaults to Person)
   name: Geek Lab # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - https://github.com/
+    - https://github.com/geek-re-kr
 
 # Analytics
 analytics:
@@ -185,6 +186,7 @@ plugins:
   # - jekyll-asciidoc
   # - jekyll-archives
   # - asciidoctor-diagram
+  - jekyll-multiple-languages-plugin
 
 # mimic GitHub Pages with --safe
 whitelist:
