@@ -19,7 +19,7 @@ gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
   # gem 'jekyll-gravatar'
   # gem 'jekyll-polyglot'
-  gem 'jekyll-multiple-languages-plugin'
+  # gem 'jekyll-multiple-languages-plugin'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

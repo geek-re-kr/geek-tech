@@ -9,15 +9,15 @@ minimal_mistakes_skin: "geek"
 # default_lang: "ko"
 # exclude_from_localization: ["javascript", "images", "css", "README.md"]
 # parallel_localization: true
-## mulgilang
-languages: ["ko", "en", "jp"]
+## multilang
+# languages: ["ko", "en", "jp"]
 exclude_from_localizations: ["js", "javascript", "images", "css", "assets", "CNAME", "README.md"]
 default_locale_in_subfolder: true
 defaultLang: ko
-languageNames:
-  ko: Korean
-  en: English
-  jp: Japanese
+# languageNames:
+#   ko: Korean
+#   en: English
+#   jp: Japanese
 
 # Site Settings
 date_format: "%Y-%m-%d"
@@ -180,13 +180,11 @@ plugins:
   - jekyll-feed
   - jemoji
   # not in ghpages
-  # - jekyll-admin
-  # - jekyll-gravatar
+  - jekyll-gravatar
   - jekyll-include-cache
-  # - jekyll-asciidoc
-  # - jekyll-archives
-  # - asciidoctor-diagram
-  - jekyll-multiple-languages-plugin
+  - jekyll-asciidoc
+  - jekyll-archives
+  - asciidoctor-diagram
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -196,12 +194,11 @@ whitelist:
   - jekyll-feed
   - jemoji
   # not in ghpages
-  # - jekyll-admin
-  # - jekyll-gravatar
+  - jekyll-gravatar
   - jekyll-include-cache
-  # - jekyll-asciidoc
-  # - jekyll-archives
-  # - asciidoctor-diagram
+  - jekyll-asciidoc
+  - jekyll-archives
+  - asciidoctor-diagram
 
 # Archives
 #  Type

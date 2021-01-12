@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "IP Address (IPv4)"
 date: "2021-01-12 00:00:00 +0900"
 categories: network
