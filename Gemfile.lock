@@ -294,7 +294,6 @@ DEPENDENCIES
   dotenv
   geek!
   github-pages
-  jekyll-multiple-languages-plugin
   minimal-mistakes-jekyll!
   rake (>= 12.3.3)
   tzinfo (~> 1.2)

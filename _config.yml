@@ -186,7 +186,7 @@ plugins:
   # - jekyll-asciidoc
   # - jekyll-archives
   # - asciidoctor-diagram
-  - jekyll-multiple-languages-plugin
+  # - jekyll-multiple-languages-plugin
 
 # mimic GitHub Pages with --safe
 whitelist:
