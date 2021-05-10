@@ -52,7 +52,9 @@ joinstr = ','.join(strings)
 print(joinstr)
 ```
 
-### for-if 조건추출 - 3보다 큰 숫자만 추출
+### 조건추출 - 3보다 큰 숫자만 추출
+
+#### for-if
 
 ```pythonn
 ext_numbers = [num for num in numbers if num > 3]
@@ -63,4 +65,25 @@ print(ext_numbers)
 `[4, 5, 6, 7, 4, 6, 5, 6]`
 
 
+#### for-filter with function
 
+```pythonn
+def is_bigger_than3(x):
+    return x > 3
+
+ext_numbers = list(filter(is_bigger_than3, numbers))
+print(ext_numbers)
+```
+
+정상출력
+`[4, 5, 6, 7, 4, 6, 5, 6]`
+
+#### for-filter with lambda
+
+```pythonn
+ext_numbers = list(filter(lambda x: x > 3, numbers))
+print(ext_numbers))
+```
+
+정상출력
+`[4, 5, 6, 7, 4, 6, 5, 6]`
