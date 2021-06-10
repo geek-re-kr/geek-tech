@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Kafka - Quickstarts
 date: 2021-05-10 09:00:00 +0900
 categories: middleware

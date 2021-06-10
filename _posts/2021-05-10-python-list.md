@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: Python list로 할 수 있는 것들
 date:   2021-05-10 09:00:00 +0900
 categories: python
