@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/geek-re-kr/minimal-mistakes.git
+  remote: https://github.com/ScriptonBasestar-io/minimal-mistakes.git
   revision: 5c37ee548e7bbe5a1f3798ef06ce1912c7ce4908
   specs:
     minimal-mistakes-jekyll (4.21.0)
@@ -46,7 +46,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     asciidoctor (2.0.15)
     coffee-script (2.4.1)
@@ -59,6 +59,7 @@ GEM
     concurrent-ruby (1.1.8)
     dnsruby (1.61.5)
       simpleidn (~> 0.1)
+    dotenv (2.7.6)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -78,6 +79,8 @@ GEM
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
     ffi (1.15.0)
+    ffi (1.15.0-x64-mingw32)
+    ffi (1.15.0-x86-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (209)
@@ -179,8 +182,6 @@ GEM
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
-    jekyll-multiple-languages-plugin (1.7.0)
-      jekyll (>= 2.0, < 5.0)
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
@@ -269,6 +270,10 @@ GEM
     nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    nokogiri (1.11.3-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.11.3-x86-mingw32)
+      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -304,10 +309,15 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2021.1)
+      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
+    unf_ext (0.0.7.7-x86-mingw32)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
     zeitwerk (2.4.2)
 
 PLATFORMS
